@@ -1,0 +1,274 @@
+body {  
+
+    background-color: rgb(252, 217, 177);
+}
+
+header {  
+
+    background-color: rgb(255, 211, 123);
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav {  
+
+    background-color: rgb(29, 94, 69);
+ position: sticky;
+ top: 0;
+ z-index: 2;
+ display: flex;
+justify-content: center;
+}
+
+#intro {  
+
+    background-color: rgb(96, 80, 62);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+
+
+}
+.main-section-content h2 {  
+
+    background-color: rgb(20, 40, 66);
+    padding: 5px;
+    margin-bottom: 50px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+     font-size: 24px;
+
+}
+
+#bestsellers
+footer {
+
+    border: 1px solid black;
+}
+
+header, 
+nav,
+main-section {
+
+    border-radius: 10px;
+}
+
+h1 { 
+
+    color: rgb(12, 44, 72);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+h2,
+
+    p {
+color: rgb(5, 27, 44);
+
+    }
+
+
+    table,
+    th,
+    td {
+
+        border: 1px  solid black;
+    }
+tr:last-child {
+
+
+color: rgb(81, 120, 249);
+
+}
+
+span {
+
+/* first lesson*/
+
+color: rgb(5, 9, 70);
+
+}
+
+footer p:first-child span {
+
+/* first lesson*/
+
+color: rgb(75, 99, 255);
+
+}
+
+.teacher-info {
+
+/* first lesson*/
+
+border-radius: 5px;
+
+/*third lesson*/
+
+margin: 10px;
+
+width: 400px;
+
+box-shadow: 6px 0px 21px -3px lab(37.35% 14.91 -51.04);}
+#videos div{
+display: flex;
+justify-content: space-around;
+}
+#teachers {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+nav ul {
+display: flex;
+justify-content: space-between;
+}
+
+
+button { background-color: rgb(60, 59, 141);
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+}  
+h3 {
+
+font-size: 20px;
+
+font-family: Arial, Helvetica, sans-serif;
+
+text-decoration: underline;
+
+}
+
+/*third lesson*/
+
+nav li {
+    grid-column: auto;
+
+margin: 10px;
+
+padding: 5px;
+
+border: 1px solid;
+
+border-radius: 5px;
+
+}
+
+.teacher-info div:last-child {
+
+margin-left: 50px;
+
+}
+
+.main-section-content {
+
+padding: 20px;
+
+}
+
+table {
+
+margin: auto;
+
+}
+
+th,
+
+td {
+
+padding: 10px;
+
+}
+
+footer {
+
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+#bestsellers h2 {
+
+padding: 20px;
+
+}
+
+ol li {
+
+margin-bottom: 20px;
+
+}
+
+/* fourth lesson*/
+
+#book-reviews p,
+
+#book-reviews h3 {
+
+position: relative;
+
+left: 40%;
+
+width: 400px;
+
+} 
+#videos div{
+display: flex;
+justify-content: space-around;
+}
+#teachers {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+nav ul {
+display: flex;
+justify-content: space-between;
+}
+/*sixth lesson*/
+header {
+    grid-area: header;
+}
+nav {
+    grid-column: auto;
+    
+    grid-area: nav; }
+#intro { 
+    grid-area: intro;
+}
+#mainsection {
+    grid-area: main-section;
+}
+#bestsellers {
+    grid-area: bestsellers;
+}
+footer {
+    grid-area: footer;
+}
+.grid-container {
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+grid-template-areas:
+"header header header header intro"
+"nav nav nav nav intro"
+"main-section main-section main-section main-section bestsellers"
+"footer footer footer footer footer";
+}
+.nav {
+ 
+
+height: 80px;
+
+
+
+}
